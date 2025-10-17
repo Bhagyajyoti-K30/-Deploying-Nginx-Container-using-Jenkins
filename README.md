@@ -73,4 +73,3 @@ Note: Restart your system or log out/in after adding users to the Docker group.
   ## 📚 Notes
 - Ensure port 8081 is open in your firewall settings.
 - Remove any existing containers with the same name before re-running.
-- This setup is for educational purposes only; do not use in production as-is.
