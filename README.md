@@ -14,13 +14,13 @@ This is a project demonstrating how to deploy an Nginx container using Jenkins. 
 
  ## 🔧 Setup Instructions
 📌 Step 1: Install Jenkins
-    sudo apt update
-    sudo apt install openjdk-11-jdk -y
-    wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
-    sudo sh -c 'echo deb https://pkg.jenkins.io/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
-    sudo apt update
-    sudo apt install jenkins -y
-    sudo systemctl start jenkins
+    sudo apt update |
+    sudo apt install openjdk-11-jdk -y |
+    wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add - |
+    sudo sh -c 'echo deb https://pkg.jenkins.io/debian binary/ > /etc/apt/sources.list.d/jenkins.list' |
+    sudo apt update |
+    sudo apt install jenkins -y |
+    sudo systemctl start jenkins |
     sudo systemctl enable jenkins
 
 ## Access Jenkins at:
