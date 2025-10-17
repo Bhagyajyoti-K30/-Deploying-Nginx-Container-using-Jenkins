@@ -31,20 +31,20 @@ This is a project demonstrating how to deploy an Nginx container using Jenkins. 
   sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 ## 🐳 Step 2: Install Docker
-- If you are using root you canavoid sudo
-    sudo apt update
-    sudo apt install docker.io -y
-    sudo systemctl start docker
-    sudo systemctl enable docker
-    sudo usermod -aG docker jenkins
-    sudo usermod -aG docker $USER
+If you are using root you canavoid sudo
+- sudo apt update
+- sudo apt install docker.io -y
+- sudo systemctl start docker
+- sudo systemctl enable docker
+- sudo usermod -aG docker jenkins
+- sudo usermod -aG docker $USER
 Note: Restart your system or log out/in after adding users to the Docker group.
 
 ## 📁 Step 4: Create & Push Dockerfile to GitHub
 - Example [\[Dockerfile\]](https://github.com/Bhagyajyoti-K30/-Deploying-Nginx-Container-using-Jenkins/blob/main/Dockerfile)
   
 ## 📄 Step 5: Create & Push index.html to GitHub
-- Example [\[index.html\]](
+- Example [\[index.html\]](https://github.com/Bhagyajyoti-K30/-Deploying-Nginx-Container-using-Jenkins/blob/main/index.html)
 
 ## ⚙️ Step 6: Create a New Jenkins Pipeline
 - Open Jenkins Dashboard
@@ -59,7 +59,7 @@ Note: Restart your system or log out/in after adding users to the Docker group.
 - Set branch (default: main or master)
 
   ## 📝 Step 8: Write & Push Jenkinsfile to GitHub
-  - Example [\[Jenkinsfile\]](
+  - Example [\[Jenkinsfile\]](https://github.com/Bhagyajyoti-K30/-Deploying-Nginx-Container-using-Jenkins/blob/main/Jenkinsfile)
 
   ## ▶️ Step 9: Run the Jenkins Pipeline
 - Go to your pipeline project in Jenkins
